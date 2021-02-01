@@ -18,9 +18,9 @@ Huge thanks to j to the 4n, for all his contributions and work
 for the development community in general! What a legend!
 
 --NOTE--: The modified files are the same for Pixel 3 and 3a series,
-so I went ahead and modded them as well. I don't own these
-devices, so please use at your own risk. I likely won't be able
-to help if you have any issues either.
+so I went ahead and modded them as well.
+****I don't own these devices, so please use at your own risk. I
+ikely won't be able to help if you have any issues either.
 
 **PLEASE DO NOT EXPECT ME TO UPDATE THESE AS QUICKLY / PROMPTLY
 AS THE ORIGINAL DEVELOPER! THIS IS JUST A LITTLE PROJECT I'M DOING
