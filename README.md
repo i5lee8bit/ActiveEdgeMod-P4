@@ -27,3 +27,9 @@ AS THE ORIGINAL DEVELOPER! THIS IS JUST A LITTLE PROJECT I'M DOING
 ON THE SIDE FOR FUN / EXPERIENCE, AND ALSO JUST AS A BIG FAN OF THE
 ORIGINAL DEVELOPER'S WORK. I'M NOT RECEIVING ANY COMPENSATION FOR
 IT - I JUST REALLY LOVE THE MOD AND WANTED TO KEEP IT ALIVE.
+
+
+02-05-2021: Just for fun and for my own educational purposes, I cleaned
+up and user-friendly-itized the script I made that does most of the work
+and semi-automates the entire process for me. Uploaded to the repo,
+mostly for my own records. =)
