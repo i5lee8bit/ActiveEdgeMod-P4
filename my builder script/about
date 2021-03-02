@@ -1,0 +1,7 @@
+Batch file will require additional [Linux-style] command line tools installed to system environment paths. Such as curl, md5sum, and maybe others.
+Just thought I should mention it.
+
+Also requires apktool 2.5.0 (and possibly older versions; 2.5.0 is included here).
+2.6.0 isn't released as of now, but one of the command switches used in my script is supposed to be deprecated for 2.6.0.
+
+Also see my comments sprawled throughout the batch files.
