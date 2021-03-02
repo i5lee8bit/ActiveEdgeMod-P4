@@ -5,3 +5,5 @@ Also requires apktool 2.5.0 (and possibly older versions; 2.5.0 is included here
 2.6.0 isn't released as of now, but one of the command switches used in my script is supposed to be deprecated for 2.6.0.
 
 Also see my comments sprawled throughout the batch files.
+
+Also, the actual modified smali files are not included here, because I didn't ask the dev for permission to share publicly.
