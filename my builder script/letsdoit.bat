@@ -148,7 +148,7 @@ md5sum "%CD%\flame-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2
 md5sum "%CD%\blueline-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\blueline-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
 md5sum "%CD%\bonito-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\bonito-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
 md5sum "%CD%\sargo-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\sargo-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
-md5sum "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.md5"
+md5sum "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
 ECHO.
 
 
