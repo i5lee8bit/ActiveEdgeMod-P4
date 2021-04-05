@@ -40,27 +40,27 @@ set /p BUILDVAR=Enter current build variable (RQ1A.210205.004-7038034):
 ECHO.
 
 ECHO Downloading CORAL SystemUIGoogle.apk...
-curl -o coral-%BUILDVAR%-SystemUIGoogle.apk https://git.rip/dumps/google/coral/-/raw/coral-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+curl -o coral-%BUILDVAR%-SystemUIGoogle.apk https://dumps.tadiphone.dev/dumps/google/coral/-/raw/coral-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 ECHO.
 
 ECHO Downloading FLAME SystemUIGoogle.apk...
-curl -o flame-%BUILDVAR%-SystemUIGoogle.apk https://git.rip/dumps/google/flame/-/raw/flame-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+curl -o flame-%BUILDVAR%-SystemUIGoogle.apk https://dumps.tadiphone.dev/dumps/google/flame/-/raw/flame-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 ECHO.
 
 ECHO Downloading BLUELINE SystemUIGoogle.apk...
-curl -o blueline-%BUILDVAR%-SystemUIGoogle.apk https://git.rip/dumps/google/blueline/-/raw/blueline-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+curl -o blueline-%BUILDVAR%-SystemUIGoogle.apk https://dumps.tadiphone.dev/dumps/google/blueline/-/raw/blueline-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 ECHO.
 
 ECHO Downloading BONITO SystemUIGoogle.apk...
-curl -o bonito-%BUILDVAR%-SystemUIGoogle.apk https://git.rip/dumps/google/bonito/-/raw/bonito-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+curl -o bonito-%BUILDVAR%-SystemUIGoogle.apk https://dumps.tadiphone.dev/dumps/google/bonito/-/raw/bonito-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 ECHO.
 
 ECHO Downloading SARGO SystemUIGoogle.apk...
-curl -o sargo-%BUILDVAR%-SystemUIGoogle.apk https://git.rip/dumps/google/sargo/-/raw/sargo-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+curl -o sargo-%BUILDVAR%-SystemUIGoogle.apk https://dumps.tadiphone.dev/dumps/google/sargo/-/raw/sargo-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 ECHO.
 
 ECHO Downloading CROSSHATCH SystemUIGoogle.apk...
-curl -o crosshatch-%BUILDVAR%-SystemUIGoogle.apk https://git.rip/dumps/google/crosshatch/-/raw/crosshatch-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+curl -o crosshatch-%BUILDVAR%-SystemUIGoogle.apk https://dumps.tadiphone.dev/dumps/google/crosshatch/-/raw/crosshatch-user-11-%BUILDVAR%-release-keys/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 ECHO.
 
 
@@ -148,7 +148,7 @@ md5sum "%CD%\flame-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2
 md5sum "%CD%\blueline-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\blueline-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
 md5sum "%CD%\bonito-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\bonito-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
 md5sum "%CD%\sargo-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\sargo-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
-md5sum "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk.md5"
+md5sum "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.apk" | cut -c 2- | cut -d ' ' -f 1 > "%CD%\crosshatch-%BUILDVAR%-SystemUIGoogle\dist\SystemUIGoogle.md5"
 ECHO.
 
 
